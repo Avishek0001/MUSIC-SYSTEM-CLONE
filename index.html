@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Radio+Canada:wght@300&display=swap" rel="stylesheet">
+
+
+<title>Music Player</title>
+</head>
+<body>
+<header>
+<div class="menu_slide">
+    <h1>Playlist</h1>
+    <div class="playlist">
+        <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+        <h4 ><span></span><i class="bi bi-music-note-list"></i>Last Listening</h4>
+        <h4><span></span><i class="bi bi-music-note-list"></i>Recommended</h4>
+        
+    </div>
+    <div class="menu_song">
+        <li class="songItem">
+            <span>01</span>
+            <img src="SongImage/1.jpg" alt="Night Changes">
+            <h5>
+                Night Changes
+                <div class="subtitle">One Direction</div>
+            </h5>   
+            <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+        
+
+        </li>
+
+        <li class="songItem">
+            <span>02</span>
+            <img src="images/1.jpg" alt="Night Changes">
+            <h5>
+                Night Changes
+                <div class="subtitle">Neffex</div>
+            </h5>
+                <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+           
+            
+        </li>
+
+        <li class="songItem">
+            <span>03</span>
+            <img src="images/1.jpg" alt="Night Changes">
+            <h5>
+                Night Changes
+                <div class="subtitle">Glass Animals</div>
+            </h5>
+                <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+            
+        </li>
+
+        <li class="songItem">
+            <span>04</span>
+            <img src="images/1.jpg" alt="Night Changes">
+            <h5>
+                Night Changes
+                <div class="subtitle">One Direction</div>
+            </h5>
+                <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+            
+        </li>
+        
+       
+
+        
+        
+    </div>
+</div>
+<div class="song_slide">
+    <nav>
+        <ul>
+            <li>Discover<span></span></li>
+            <li>My Library</li>
+            <li>Radio</li>
+        </ul>
+    
+    <div class="search">
+        <i class="bi bi-search-heart-fill"></i>
+        <input type="text" placeholder="Search Music....">
+        <div class="search_result">
+            <!-- <a href="#" class="card">
+                <img src="SongsImage/1.jpg" alt="">
+                <div class="content">
+                    Night Changes 
+        <div class="subtitle">One Direction</div>
+                </div> 
+            </a>-->
+            
+    </div>
+    
+</nav>
+<div class="content">
+    <h1>Music System Clone</h1>
+    <div class="buttons">
+        <p>CLICK ON THE BUTTONS AND USE THE SEARCH BAR TOO</p>
+        <button>FOLLOW</button>
+    </div>
+</div>
+<div class="popular_song">
+    <div class="h4">
+        <h4>Popular Song</h4>
+        <div class="btn_s">
+            <i id= "left_scroll" class="bi bi-arrow-left-short"></i>
+            <i id= "right_scroll" class="bi bi-arrow-right-short"></i>
+        </div>
+    </div>
+    <div class="pop_song">
+        <li class="songItem">
+            <div class="img_play">
+                <img src="SongImage/1.jpg" alt="One Direction">
+                <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+            </div>
+            <h5>Night Change 
+                <br>                        
+                <div class="subtitle">One Direction</div>
+            </h5>
+        </li>
+        <li class="songItem">
+            <div class="img_play">
+                <img src="SongImage/1.jpg" alt="One Direction">
+                <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+            </div>
+            <h5>Night Change 
+                <br>                        
+                <div class="subtitle">One Direction</div>
+            </h5>
+        </li>
+        <li class="songItem">
+            <div class="img_play">
+                <img src="SongsImage/1.jpg" alt="One Direction">
+                <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+            </div>
+            <h5>Night Change 
+                <br>                        
+                <div class="subtitle">One Direction</div>
+            </h5>
+        </li>
+        <li class="songItem">
+            <div class="img_play">
+                <img src="SongsImage/1.jpg" alt="One Direction">
+                <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+            </div>
+            <h5>Night Change 
+                <br>                        
+                <div class="subtitle">One Direction</div>
+            </h5>
+        </li>
+        <li class="songItem">
+            <div class="img_play">
+                <img src="SongsImage/1.jpg" alt="One Direction">
+                <i class="bi playListPlay  bi-play-circle-fill" id="9"></i>
+            </div>
+            <h5>Night Change 
+                <br>                        
+                <div class="subtitle">One Direction</div>
+            </h5>
+        </li>
+        <li class="songItem">
+            <div class="img_play">
+                <img src="images/1.jpg" alt="One Direction">
+                <i class="bi playListPlay  bi-play-circle-fill" id="10"></i>
+            </div>
+            <h5>Night Change 
+                <br>                        
+                <div class="subtitle">One Direction</div>
+            </h5>
+        </li>
+        <li class="songItem">
+            <div class="img_play">
+                <img src="images/1.jpg" alt="One Direction">
+                <i class="bi playListPlay  bi-play-circle-fill" id="11"></i>
+            </div>
+            <h5>Night Change 
+                <br>                        
+                <div class="subtitle">One Direction</div>
+            </h5>
+        </li>
+        <li class="songItem">
+            <div class="img_play">
+                <img src="images/1.jpg" alt="One Direction">
+                <i class="bi playListPlay  bi-play-circle-fill" id="12"></i>
+            </div>
+            <h5>Night Change 
+                <br>                        
+                <div class="subtitle">One Direction</div>
+            </h5>
+        </li>
+        <li class="songItem">
+            <div class="img_play">
+                <img src="images/1.jpg" alt="One Direction">
+                <i class="bi playListPlay  bi-play-circle-fill" id="13"></i>
+            </div>
+            <h5>Night Change 
+                <br>                        
+                <div class="subtitle">One Direction</div>
+            </h5>
+        </li>
+        <li class="songItem">
+            <div class="img_play">
+                <img src="images/14.jpg" alt="One Direction">
+                <i class="bi playListPlay  bi-play-circle-fill" id="14"></i>
+            </div>
+            <h5>Night Change 
+                <br>                        
+                <div class="subtitle">One Direction</div>
+            </h5>
+        </li>
+        <li class="songItem">
+            <div class="img_play">
+                <img src="images/15.jpg" alt="One Direction">
+                <i class="bi playListPlay  bi-play-circle-fill" id="15"></i>
+            </div>
+            <h5>Night Change 
+                <br>                        
+                <div class="subtitle">One Direction</div>
+            </h5>
+        </li>
+        <li class="songItem">
+            <div class="img_play">
+                <img src="images/14.jpg" alt="One Direction">
+                <i class="bi playListPlay  bi-play-circle-fill" id="16"></i>
+            </div>
+            <h5>Night Change 
+                <br>                        
+                <div class="subtitle">One Direction</div>
+            </h5>
+        </li>
+    </div>
+</div>
+<div class="popular_artists">
+    <div class="h4">
+        <h4>Popular Artists</h4>
+        <div class="btn_s">
+            <i id= "left_scrolls" class="bi bi-arrow-left-short"></i>
+            <i id= "right_scrolls" class="bi bi-arrow-right-short"></i>
+        </div>
+    </div>
+    <div class="item">
+        <li>
+            <a href="https://pagalworld.com.se/find/Arijit+Singh/2.html"> <img src="images/2.jpeg" alt="Arijit Singh" title="Arijit Singh"></a>
+        </li>
+        <li>
+          <a href="https://www.jiosaavn.com/s/playlist/phulki_user/Shreya_Ghoshal_-_Spotlight/zdnHrUmhnqFuOxiEGmm6lQ__"> <img src="images/3.jpg" alt="Shreya Goshal" title="Shreya Goshal"></a> 
+        </li>
+        <li>
+           <a href="https://www.jiosaavn.com/artist/ap-dhillon-songs/fBfisFn5rbc_"> <img src="images/4.jpg" alt="AP DHILLON" title="AP DHILLON"></a>
+        </li>
+        <li>
+           <a href="https://www.jiosaavn.com/artist/atif-aslam-songs/MXn8bhT308U_"> <img src="images/5.jpg" alt="Atif Aslam" title="Atif Aslam"></a>
+        </li>
+        <li>
+           <a href=""> <img src="images/6.jpg" alt="Anupam Roy" title="Anupam Roy"></a>
+        </li>
+        <li>
+            <img src="images/7.jpg" alt="Arman Malik" title="Arman Malik">
+        </li>
+        <li>
+            <img src="images/8.jpg" alt="Sanam Puri" title="Sanam Puri">
+        </li>
+        <li>
+            <img src="images/9.jpg" alt="Sonu Nigam" title="Sonu Nigam">
+        </li>
+        <li>
+            <img src="images/10.webp" alt="Kishore Kumar" title="Kishore Kumar">
+        </li>
+        <li>
+            <img src="images/11.jpg" alt="Lata Mangeshkar" title="Lata Mangeshkar">
+        </li>
+        <li>
+            <img src="images/12.jpg" alt="Darshan Raval" title="Darshan Raval">
+        </li>
+        <li>
+            <img src="images/13.jpg" alt="Darshan Raval" title="Neha Kakkar">
+        </li>
+        
+        
+    </div>
+    </div>
+</div>
+
+
+<div class="master_play">
+    <div class="wave">
+        <div class="wave1"></div>
+        <div class="wave1"></div>
+        <div class="wave1"></div>
+    </div>
+    <img src="SongsImage/1.jpg" alt="" id="poster_master_play">
+    <hS id="title">Night Changes<br>            
+        <div class="subtitle">One Direction</div>
+        </hS>
+    <div class="icon">
+        <i class="bi bi-skip-start-fill" id="back"></i>
+        <i class="bi bi-play-fill" id="masterPlay"></i>
+        <i class="bi bi-skip-end-fill" id="next"></i>
+        </div>
+        <span id="currentStart">0:00</span>
+        <div class="bar">
+            <input type="range" id="seek" min="0" value="0" max="100">
+            <div class="bar2" id="bar2"></div>
+            <div class="dot"></div>
+        </div>
+        <span id="currentEnd">0:00</span>
+
+        <div class="vol">
+            <i class="bi bi-volume-up" id="vol_icon"></i>
+            <input type="range" id="vol" min="0" value="30" max="100">
+            <div class="vol_bar"></div>
+            <div class="dot"  id="vol_dot"></div>
+        </div>
+</div>
+
+</header>
+
+<script src="script.js"></script>
+</body>
+</html>
